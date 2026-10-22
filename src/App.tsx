@@ -40,12 +40,30 @@ export default function App() {
   const [revealed, setRevealed] = useState(false);
 
   useEffect(() => {
-    fetch("/clips/manifest.json")
+    const base = import.meta.env.BASE_URL;
+    const publicUrl = (path: string) => {
+      const rel = path.replace(/^\//, "");
+      return `${base}${rel}`;
+    };
+    fetch(`${base}clips/manifest.json`)
       .then((r) => {
         if (!r.ok) throw new Error("找不到 clips/manifest.json，请先跑 npm run prepare:clips");
         return r.json();
       })
-      .then((data: Manifest) => setManifest(data))
+      .then((data: Manifest) =>
+        setManifest({
+          ...data,
+          trials: data.trials.map((trial) => ({
+            ...trial,
+            files: {
+              bandit: publicUrl(trial.files.bandit),
+              tme: publicUrl(trial.files.tme),
+              suno: publicUrl(trial.files.suno),
+              ref: publicUrl(trial.files.ref),
+            },
+          })),
+        }),
+      )
       .catch((e: Error) => setError(e.message));
   }, []);
 

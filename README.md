@@ -19,6 +19,8 @@ npm run dev
 
 浏览器打开终端提示的地址（默认 [http://localhost:5177](http://localhost:5177)）。
 
+线上地址：[https://cheerjam1991.github.io/stem-separation-mos-test/](https://cheerjam1991.github.io/stem-separation-mos-test/)。推到 `main` 后由 GitHub Actions 发布。
+
 ## 音频路径
 
 片段定义在 `scripts/clips.json`。源目录是 `/Users/xmly/projects/track-split-download` 下的 `ai-split`、`fx`、`suno`。
