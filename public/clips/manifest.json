@@ -1,0 +1,191 @@
+{
+  "alignmentNote": "516265250: Bandit/Suno seek = TME - 160ms; 730078171: no shift",
+  "systems": [
+    "bandit",
+    "tme",
+    "suno"
+  ],
+  "tracks": {
+    "516265250": {
+      "offsetMs": 160,
+      "offsetNote": "Bandit/Suno 比 TME、原曲早约 160ms"
+    },
+    "730078171": {
+      "offsetMs": 0,
+      "offsetNote": "三组包络在 0ms 对齐"
+    }
+  },
+  "trials": [
+    {
+      "id": "516265250-e1",
+      "trackId": "516265250",
+      "role": "effects",
+      "roleLabel": "音效",
+      "slot": 1,
+      "prompt": "请只评价音效轨质量：瞬态是否保留、归属是否正确、是否掺入人声/音乐。",
+      "startSec": 99.0,
+      "endSec": 108.0,
+      "durationSec": 9.0,
+      "startLabel": "1:39.00",
+      "rangeLabel": "1:39–1:48",
+      "files": {
+        "bandit": "/clips/516265250-e1_bandit.wav",
+        "tme": "/clips/516265250-e1_tme.wav",
+        "suno": "/clips/516265250-e1_suno.wav",
+        "ref": "/clips/516265250-e1_ref.wav"
+      }
+    },
+    {
+      "id": "516265250-e2",
+      "trackId": "516265250",
+      "role": "effects",
+      "roleLabel": "音效",
+      "slot": 2,
+      "prompt": "请只评价音效轨质量：瞬态是否保留、归属是否正确、是否掺入人声/音乐。",
+      "startSec": 286.0,
+      "endSec": 292.0,
+      "durationSec": 6.0,
+      "startLabel": "4:46.00",
+      "rangeLabel": "4:46–4:52",
+      "files": {
+        "bandit": "/clips/516265250-e2_bandit.wav",
+        "tme": "/clips/516265250-e2_tme.wav",
+        "suno": "/clips/516265250-e2_suno.wav",
+        "ref": "/clips/516265250-e2_ref.wav"
+      }
+    },
+    {
+      "id": "516265250-e3",
+      "trackId": "516265250",
+      "role": "effects",
+      "roleLabel": "音效",
+      "slot": 3,
+      "prompt": "请只评价音效轨质量：瞬态是否保留、归属是否正确、是否掺入人声/音乐。",
+      "startSec": 403.0,
+      "endSec": 433.0,
+      "durationSec": 30.0,
+      "startLabel": "6:43.00",
+      "rangeLabel": "6:43–7:13",
+      "files": {
+        "bandit": "/clips/516265250-e3_bandit.wav",
+        "tme": "/clips/516265250-e3_tme.wav",
+        "suno": "/clips/516265250-e3_suno.wav",
+        "ref": "/clips/516265250-e3_ref.wav"
+      }
+    },
+    {
+      "id": "516265250-m1",
+      "trackId": "516265250",
+      "role": "music",
+      "roleLabel": "音乐",
+      "slot": 1,
+      "prompt": "请只评价音乐轨质量：伴奏完整度、是否掺入人声、有无空洞/伪影。",
+      "startSec": 234.0,
+      "endSec": 250.0,
+      "durationSec": 16.0,
+      "startLabel": "3:54.00",
+      "rangeLabel": "3:54–4:10",
+      "files": {
+        "bandit": "/clips/516265250-m1_bandit.wav",
+        "tme": "/clips/516265250-m1_tme.wav",
+        "suno": "/clips/516265250-m1_suno.wav",
+        "ref": "/clips/516265250-m1_ref.wav"
+      }
+    },
+    {
+      "id": "516265250-m2",
+      "trackId": "516265250",
+      "role": "music",
+      "roleLabel": "音乐",
+      "slot": 2,
+      "prompt": "请只评价音乐轨质量：伴奏完整度、是否掺入人声、有无空洞/伪影。",
+      "startSec": 418.0,
+      "endSec": 429.0,
+      "durationSec": 11.0,
+      "startLabel": "6:58.00",
+      "rangeLabel": "6:58–7:09",
+      "files": {
+        "bandit": "/clips/516265250-m2_bandit.wav",
+        "tme": "/clips/516265250-m2_tme.wav",
+        "suno": "/clips/516265250-m2_suno.wav",
+        "ref": "/clips/516265250-m2_ref.wav"
+      }
+    },
+    {
+      "id": "516265250-m4",
+      "trackId": "516265250",
+      "role": "music",
+      "roleLabel": "音乐",
+      "slot": 4,
+      "prompt": "请只评价音乐轨质量：伴奏完整度、是否掺入人声、有无空洞/伪影。",
+      "startSec": 172.0,
+      "endSec": 181.0,
+      "durationSec": 9.0,
+      "startLabel": "2:52.00",
+      "rangeLabel": "2:52–3:01",
+      "files": {
+        "bandit": "/clips/516265250-m4_bandit.wav",
+        "tme": "/clips/516265250-m4_tme.wav",
+        "suno": "/clips/516265250-m4_suno.wav",
+        "ref": "/clips/516265250-m4_ref.wav"
+      }
+    },
+    {
+      "id": "730078171-e4",
+      "trackId": "730078171",
+      "role": "effects",
+      "roleLabel": "音效",
+      "slot": 4,
+      "prompt": "请只评价音效轨质量：瞬态是否保留、归属是否正确、是否掺入人声/音乐。",
+      "startSec": 39.0,
+      "endSec": 51.0,
+      "durationSec": 12.0,
+      "startLabel": "0:39.00",
+      "rangeLabel": "0:39–0:51",
+      "files": {
+        "bandit": "/clips/730078171-e4_bandit.wav",
+        "tme": "/clips/730078171-e4_tme.wav",
+        "suno": "/clips/730078171-e4_suno.wav",
+        "ref": "/clips/730078171-e4_ref.wav"
+      }
+    },
+    {
+      "id": "730078171-e5",
+      "trackId": "730078171",
+      "role": "effects",
+      "roleLabel": "音效",
+      "slot": 5,
+      "prompt": "请只评价音效轨质量：瞬态是否保留、归属是否正确、是否掺入人声/音乐。",
+      "startSec": 71.0,
+      "endSec": 76.0,
+      "durationSec": 5.0,
+      "startLabel": "1:11.00",
+      "rangeLabel": "1:11–1:16",
+      "files": {
+        "bandit": "/clips/730078171-e5_bandit.wav",
+        "tme": "/clips/730078171-e5_tme.wav",
+        "suno": "/clips/730078171-e5_suno.wav",
+        "ref": "/clips/730078171-e5_ref.wav"
+      }
+    },
+    {
+      "id": "730078171-m3",
+      "trackId": "730078171",
+      "role": "music",
+      "roleLabel": "音乐",
+      "slot": 3,
+      "prompt": "请只评价音乐轨质量：伴奏完整度、是否掺入人声、有无空洞/伪影。",
+      "startSec": 0.0,
+      "endSec": 18.0,
+      "durationSec": 18.0,
+      "startLabel": "0:00.00",
+      "rangeLabel": "0:00–0:18",
+      "files": {
+        "bandit": "/clips/730078171-m3_bandit.wav",
+        "tme": "/clips/730078171-m3_tme.wav",
+        "suno": "/clips/730078171-m3_suno.wav",
+        "ref": "/clips/730078171-m3_ref.wav"
+      }
+    }
+  ]
+}

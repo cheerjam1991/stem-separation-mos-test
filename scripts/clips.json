@@ -1,0 +1,24 @@
+{
+  "sourceRoot": "/Users/xmly/projects/track-split-download",
+  "tracks": {
+    "516265250": {
+      "offsetMs": 160,
+      "offsetNote": "Bandit/Suno 比 TME、原曲早约 160ms"
+    },
+    "730078171": {
+      "offsetMs": 0,
+      "offsetNote": "三组包络在 0ms 对齐"
+    }
+  },
+  "clips": [
+    { "track": "516265250", "role": "effects", "slot": 1, "start": "1:39", "end": "1:48" },
+    { "track": "516265250", "role": "effects", "slot": 2, "start": "4:46", "end": "4:52" },
+    { "track": "516265250", "role": "effects", "slot": 3, "start": "6:43", "end": "7:13" },
+    { "track": "516265250", "role": "music", "slot": 1, "start": "3:54", "end": "4:10" },
+    { "track": "516265250", "role": "music", "slot": 2, "start": "6:58", "end": "7:09" },
+    { "track": "516265250", "role": "music", "slot": 4, "start": "2:52", "end": "3:01" },
+    { "track": "730078171", "role": "effects", "slot": 4, "start": "0:39", "end": "0:51" },
+    { "track": "730078171", "role": "effects", "slot": 5, "start": "1:11", "end": "1:16" },
+    { "track": "730078171", "role": "music", "slot": 3, "start": "0:00", "end": "0:18" }
+  ]
+}
